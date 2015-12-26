@@ -112,8 +112,7 @@ isSuccess = False
 while not myOrderRobot.islogin:
 	continue
 	
-while(not(isSuccess)):
-#while(not(isSuccess) and now < exitTime):
+while(not(isSuccess) and now < exitTime):
 	now = datetime.datetime.now()
 	print isSuccess
 	result = myOrderRobot.orderBadminton()
