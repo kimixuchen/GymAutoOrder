@@ -93,8 +93,8 @@ class OrderRobot:
 now = datetime.datetime.now()
 
 nextDay = now + datetime.timedelta(days=1)
-#登陆时间 8:02:50s
-loginTime = datetime.datetime(nextDay.year, nextDay.month, nextDay.day , 8, 2, 50)	
+#登陆时间 8:00:00s
+loginTime = datetime.datetime(nextDay.year, nextDay.month, nextDay.day , 8, 0, 0)	
 #登出时间 8:04:00s
 exitTime = datetime.datetime(nextDay.year, nextDay.month, nextDay.day , 8, 4, 0)
 
