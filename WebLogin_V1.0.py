@@ -76,7 +76,7 @@ class OrderRobot:
 			'orderVO.useTime':self.orderday.strftime(DATEFORMAT_Ymd)+self.starttime,
             'orderVO.itemId':'10',
 			'orderVO.useMode':'2',
-			'useUserIds':'77400',
+			'useUserIds':'78749',
 			'orderVO.phone':'13736542156',
 			'orderVO.remark':'',
 			'validateCode':validateNum
@@ -111,7 +111,8 @@ isSuccess = False
 
 while not myOrderRobot.islogin:
 	continue
-	
+
+
 while(not(isSuccess) and now < exitTime):
 	now = datetime.datetime.now()
 	print isSuccess
